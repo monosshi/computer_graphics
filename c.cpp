@@ -5,11 +5,11 @@ int main() {
     int gd = DETECT, gm;
     initgraph(&gd, &gm, "");
 
-    // Car body
+    
     rectangle(100, 200, 400, 260);
     rectangle(150, 160, 350, 200);
 
-    // Wheels
+    
     circle(160, 260, 20);
     circle(340, 260, 20);
 
